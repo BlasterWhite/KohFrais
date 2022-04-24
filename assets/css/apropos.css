@@ -1,0 +1,78 @@
+main section {
+    padding: 50px 0 0 0;
+    justify-content: space-evenly;
+    background: var(--color1);
+    border-radius: 15px;
+}
+
+main article {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+main article p {
+    width: 60%;
+    margin: 0 auto;
+}
+
+hr {
+    width: 60%;
+    border: 3px #FFFFFF solid;
+    border-radius: 5px;
+}
+
+.banniere {
+    color: var(--color1);
+    height: 400px;
+    width: 100%;
+}
+
+.principeEntrep {
+    color: var(--color2);
+}
+
+.procedeFabric {
+    color: var(--color2);
+}
+
+.SavoirFaireEntrep {
+    color: var(--color2);
+}
+
+.titre {
+    text-decoration: underline;
+}
+
+div.banniere {    
+    margin-top: 70px;
+    display: table;
+    height: 300px;    
+    min-width: 100%;    
+    background-image: url(../../assets/img/PHOTOS/Bac_glace2.jpg);    
+    background-size: cover; 
+    text-align: center;
+}
+
+div.banniereVerticalAlign {
+    width:100%;
+    text-align: center; 
+    display: table-cell;
+    vertical-align: middle
+}
+
+@media screen and (max-width: 480px) {
+
+    main article p {
+        width: 100%;
+    }
+
+    hr {
+        width: 10%;
+    }
+    div.banniere {
+        height: 200px;
+        margin-top: 0px;
+    }
+} 

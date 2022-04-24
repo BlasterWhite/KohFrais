@@ -1,0 +1,58 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100;300;400;500;700;900&display=swap');*/
+@font-face {
+    font-family: 'robotoregular';
+    src: url('../fonts/roboto-regular-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bebas_neueregular';
+    src: url('../fonts/bebasneue-regular-webfont.woff2') format('woff2'),
+         url('../fonts/bebasneue-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+:root {
+    --color1: #98dbc6;
+    --color2: #304668;
+    --color3: #3DB6C7;
+    --color4: #ffcc00;
+    --color5: #f18d9e;
+}
+
+* {
+    transition:all 0.3s ease-in-out;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    /*margin: 73px 0 0 0;*/
+}
+
+p {
+    font-family: 'robotoregular', sans-serif;
+    font-size: 1rem;
+}
+
+h3 {
+    font-family: 'bebas_neueregular', cursive;
+    font-size: 2rem;
+    color: #FFFFFF;
+}
+
+h2 {
+    font-family: 'bebas_neueregular', cursive;
+    font-size: 3rem;
+    color: #FFFFFF;
+}
+
+h1 {
+    font-family: 'bebas_neueregular', cursive;
+    font-size: 4rem;
+    color: #FFFFFF;
+}

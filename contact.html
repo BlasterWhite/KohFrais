@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Matéo Guezennec, Cléo Martin-Colleu, Elio Douas, Mathias Pochot">
+  <meta name="keywords" content="Koh Frais, glace, Glaces, Crème glacée, Vacherin, coulis, fruits, vanille, glace à la vanille,
+   glacier, glacier breton, glacier Lannion, made in france, bio, fabriqué en france, fraise, pour professionnel, glaces pour professionnel,
+   coupe glacée, bac de glace, glace à l'italienne, caramel, contact">
+  <title>Koh Frait - Contact</title>
+  <link rel="stylesheet" href="assets/css/navBar.css">
+  <link rel="stylesheet" href="assets/css/charte.css">
+  <link rel="stylesheet" href="assets/css/map.css">
+  <link rel="stylesheet" href="assets/css/contact.css">
+  <link rel="stylesheet" href="assets/css/footer.css">
+  <link rel="shortcut icon" href="assets/img/icon.png" type="image/x-icon">
+  <script src="assets/js/map.js"></script>
+  <script src="https://kit.fontawesome.com/368c09efaa.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <div class="topnav" id="NavBar">
+      <a class="mobile" href="index.html">
+        <img src="assets/img/icon.png" alt="Logo KOH FRAIS" title="Logo">
+        <p id="titre">KOH FRAIS</p>
+      </a>
+      <div class="pc">
+        <a class="active" href="index.html">
+          <img src="assets/img/icon.png" alt="Logo KOH FRAIS" title="Logo">
+          <p>ACCUEIL</p>
+        </a>
+      </div>
+      <a href="particulier.html">Particulier</a>
+      <hr>
+      <a href="professionnel.html">Professionnel</a>
+      <hr>
+      <a href="about.html">à Propos</a>
+      <hr>
+      <a href="contact.html">Contact</a>
+      <a href="javascript:void(0);" class="icon" onclick="afficheNavBar()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </header>
+  <main>
+    <div id="map"></div>
+    <section>
+      <article class="info">
+        <p><strong>Téléphones :</strong><br>
+          08.20.78.12.51 Site de Lannion<br>
+          02.22.54.21.47 Site de Pontivy<br>
+          08.68.82.15.21 Administration<br>
+          <strong>Adresses :</strong><br>
+          26 Zone d'Activité Guirec, 22300 Lannion<br><br>
+          100 Av. de la Libération, 56300 Pontivy<br><br>
+          6 Bis Quai de Viarmes, 22300 Lannion<br>
+        </p>
+      </article>
+      <article class="contact-form">
+        <form action="https://formsubmit.co/contact@kotfrais.com" method="POST">
+          <input type="text" id="nom" placeholder="Nom" name="nom">
+          <input type="email" id="mail" placeholder="Email" name="email">
+          <input type="text" id="prenom" placeholder="Prénom" name="prenom">
+          <input type="text" id="sujet" placeholder="Sujet" name="sujet">
+          <textarea name="message" id="msg" cols="30" rows="10" placeholder="Votre message ici"></textarea>
+          <input type="submit" value="ENVOYER">
+        </form>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <section>
+      <article>
+        <h4>NOS PRODUITS</h4>
+        <ul>
+          <li><a href="particulier.html">Particulier</a></li>
+          <li><a href="professionnel.html">Professionnel</a></li>
+        </ul>
+      </article>
+      <article>
+        <h4>NOS CERTIFICATION</h4>
+        <img src="assets/img/made_in_france.png" alt="made in france" title="logo made in france" height="50"
+          width="50">
+        <img src="assets/img/bio.png" alt="certification BIO" title="logo BIO" height="50" width="70">
+      </article>
+      <article>
+        <h4>SUIVEZ NOUS</h4>
+        <img src="assets/img/twitter.png" alt="logo twitter" title="logo twitter" height="50" width="50">
+        <img src="assets/img/facebook.png" alt="logo facebook" title="logo facebook" height="50" width="50">
+      </article>
+      <article>
+        <article>
+          <h4>TÉLÉPHONES</h4>
+          <ul>
+            <li><a href="tel:+33820781251">08.20.78.12.51 Site de Lannion</a></li>
+            <li><a href="tel:+33222542147">02.22.54.21.47 Site de Pontivy</a></li>
+            <li><a href="tel:+33868821521">08.68.82.15.21 Administration</a></li>
+          </ul>
+        </article>
+        <article>
+          <h4>NOUS CONTACTER</h4>
+          <a href="contact.html">Message</a>
+        </article>
+      </article>
+    </section>
+    <section>
+      <h2>© 2021 KohFrais All rights reserved.</h2>
+    </section>
+  </footer>
+  <!-- <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBzydvLl3dyjXl10Ik5LPsGZqrZ9Npo0y0&callback=initMap"></script> -->
+  <script src="assets/js/navBar.js"></script>
+</body>
+
+</html>

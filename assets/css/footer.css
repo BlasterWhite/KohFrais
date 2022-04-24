@@ -1,0 +1,60 @@
+footer{
+    font-family: Verdana, sans-serif;
+}
+
+footer article{
+    margin: 2% 2%;
+    width: auto;
+    color: white;
+}
+
+footer section:first-child{
+    border-bottom: var(--color3) 2px solid;
+}
+
+footer section{
+    background-color: var(--color2);
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+footer h2{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin: 0;
+}
+
+
+footer a:visited{
+    color: var(--color5);
+}
+footer a:hover, footer a:active, footer a:link{
+    color: white;
+}
+
+footer section>article:last-child{
+    display: flex;
+    flex-wrap: none;
+}
+
+@media screen and (max-width : 520px) {
+
+    footer h4 {
+        font-size: 0.85em;
+    }
+    footer a{
+        font-size: 0.75em;
+    }
+    footer h2{
+        font-size: 1.75em;
+    }
+}
+
+@media screen and (max-width : 700px) {
+    footer h2{
+        font-size: 1.75em;
+    }
+}
+

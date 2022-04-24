@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Créateur de Coordonnées</title>
+    <link rel="stylesheet" href="../assets/css/charte.css">
+    <style>
+        body {
+            background-color: #000000F0;
+            color: #FFFFFF;
+            font-family: sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            margin: 50px;
+            padding: 25px;
+            background-color: var(--color5);
+        }
+        button {
+            background-color: var(--color3);
+            color: #FFFFFF;
+            padding: 5px;
+            font-family: 'robotoregular', sans-serif;
+            font-size: 24px;
+            border: none;
+            border-radius: 8px;
+        }
+        input[type="text"] {
+            display: block;
+            margin: 10px auto;
+            font-size: 22px;
+            font-family: 'robotoregular', sans-serif;
+            width: 60%;
+            text-align: center;
+        }
+        p.result {
+            display: block;
+            margin: 4px auto;
+            font-size: 18px;
+            font-family: 'robotoregular', sans-serif;
+            width: 60%;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Coordonate Generrator For Google Map</h1>
+    <div class="inputContainer">
+        <input type="text" placeholder="Coordonates" id="co">
+        <input type="text" placeholder="Name of the shop" id="sp">
+        <button type="submit" onclick="generate()">Generate</button>
+    </div>
+    <div id="result">
+    </div>
+    <script src="assets/script/coordonate.js"></script>
+</body>
+</html>

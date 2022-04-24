@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Matéo Guezennec, Cléo Martin-Colleu, Elio Douas, Mathias Pochot">
+  <meta name="keywords" content="Koh Frais, glace, Glaces, Crème glacée, Vacherin, coulis, fruits, vanille, glace à la vanille,
+   glacier, glacier breton, glacier Lannion, made in france, bio, fabriqué en france, fraise, pour professionnel, glaces pour professionnel,
+   coupe glacée, bac de glace, glace à l'italienne, caramel">
+  <script src="https://kit.fontawesome.com/368c09efaa.js" crossorigin="anonymous"></script>
+  <title>Koh Frait - Professionnel</title>
+  <link rel="stylesheet" href="assets/css/charte.css">
+  <link rel="stylesheet" href="assets/css/professionnel.css">
+  <link rel="stylesheet" href="assets/css/produit.css">
+  <link rel="stylesheet" href="assets/css/navBar.css">
+  <link rel="stylesheet" href="assets/css/footer.css">
+  <link rel="shortcut icon" href="assets/img/icon.png" type="image/x-icon">
+  <script src="assets/js/produit.js"></script>
+  <script src="assets/js/navBar.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="topnav" id="NavBar">
+      <a class="mobile" href="index.html">
+        <img src="assets/img/icon.png" alt="Logo KOH FRAIS" title="Logo">
+        <p id="titre">KOH FRAIS</p>
+      </a>
+      <div class="pc">
+        <a class="active" href="index.html">
+          <img src="assets/img/icon.png" alt="Logo KOH FRAIS" title="Logo">
+          <p>ACCUEIL</p>
+        </a>
+      </div>
+      <a href="particulier.html">Particulier</a>
+      <hr>
+      <a href="professionnel.html">Professionnel</a>
+      <hr>
+      <a href="about.html">à Propos</a>
+      <hr>
+      <a href="contact.html">Contact</a>
+      <a href="javascript:void(0);" class="icon" onclick="afficheNavBar()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <div class="banniere">
+      <div class="banniereVerticalAlign">
+        <h2>Nos Produits</h2>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section style="width: 80%; margin: 0 auto;">
+      <article id="produit1" class="produitLess" style="background-color: var(--color3);">
+        <img id="imageproduit1" src="assets/img/vignettes/Bac_glace1.png" title="Bac à Glace Vanille" alt="Bac a glace">
+        <h3
+          onclick="detail('produit1', 'assets/img/vignettes/Bac_glace1.png', 'Glace Glace', 'Cette glace vanille fondante en bouche fabriquée au cœur de la France, vous laissera sur le palais un doux parfum de vanille. A partager seul ou entre amis, tel-est votre choix.', '1L, 5L', true)">
+          VOIR PLUS ➔</h3>
+      </article>
+      <article id="produit2" class="produitLess" style="background-color: var(--color5);">
+        <img id="imageproduit2" src="assets/img/vignettes/Bac_glace2.png" title="Bac a glace Nougat"
+          alt="Bac a glace Nougat">
+        <h3
+          onclick="detail('produit2', 'assets/img/vignettes/Bac_glace2.png', 'Glace Nougat', 'Cette glace nougat entièrement BIO et fabriquée en France est parfaite pour les amateurs de nougat. Parfait pour un dessert sucré, cette glace vous laissera sur une fin de repas plutôt bonne.', '2L, 5L', true)">
+          VOIR PLUS ➔</h3>
+      </article>
+      <article id="produit3" class="produitLess" style="background-color: var(--color4);">
+        <img id="imageproduit3" src="assets/img/vignettes/Glace_Italienne1.png" title="" alt="Glace Italienne">
+        <h3
+          onclick="detail('produit3', 'assets/img/vignettes/Glace_Italienne1.png', 'Glace Italienne', 'Cette glace à l’Italienne fabriquée en France et disponible seulement en grand format, parfait pour les professionnels mais aussi pour les grands repas en famille.', '20L', false)">
+          VOIR PLUS ➔</h3>
+      </article>
+      <article id="produit4" class="produitLess" style="background-color: var(--color3);">
+        <img id="imageproduit4" src="assets/img/vignettes/Coupe_individuelle_1.png" title="Coupe Vanille"
+          alt="Coupe individuelle Vanille">
+        <h3
+          onclick="detail('produit4', 'assets/img/vignettes/Coupe_individuelle_1.png', 'Coupe individuelle Vanille', 'Cette délicieuse et savoureuse recette ne vous donnera plus envie de partager ! N’en prenez pas trop, ça fait grossir.Cette coupe individuelle, parfaite pour les repas à plusieurs ou seul, vous permettra de partager un merveilleux moment avec de la glace fabriquée en France.', '10 Unités, 20 Unités', false)">
+          VOIR PLUS ➔</h3>
+      </article>
+      <article id="produit5" class="produitLess" style="background-color: var(--color5);">
+        <img id="imageproduit5" src="assets/img/vignettes/Coupe_individuelle_2.png" title="Coupe Gourmande"
+          alt="Coupe individuelle Gourmande">
+        <h3
+          onclick="detail('produit5', 'assets/img/vignettes/Coupe_individuelle_2.png', 'Coupe individuelle Gourmande', 'Cette délicieuse et savoureuse coupe individuelle avec sur le dessus une chantilly fabriquée en France qui relèvera le goût de la glace et vous fera découvrir de nouvelles saveurs à l’aide de son coulis au chocolat.', '10 Unités, 20 Unités ', false)">
+          VOIR PLUS ➔</h3>
+      </article>
+      <article id="produit6" class="produitLess" style="background-color: var(--color4);">
+        <img id="imageproduit6" src="assets/img/vignettes/Coulis_caramel.png" title="Coulis de Caramel sur une glace"
+          alt="Coulis Caramel">
+        <h3
+          onclick="detail('produit6', 'assets/img/vignettes/Coulis_caramel.png', 'Coulis Caramel', 'Ce coulis caramel fait avec une boule de glace à la vanille fabriquée en France et BIO ce mélange parfaitement avec son coulis au chocolat et de sa cigarette russe sur le dessus.', '1L, 2L', true)">
+          VOIR PLUS ➔</h3>
+      </article>
+      <article id="produit7" class="produitLess" style="background-color: var(--color3);">
+        <img id="imageproduit7" src="assets/img/vignettes/Coulis_kiwi.png" title="Coulie de Kiwi" alt="Coulis Kiwi">
+        <h3
+          onclick="detail('produit7', 'assets/img/vignettes/Coulis_kiwi.png', 'Coulis Kiwi', 'Ce coulis caramel fait avec une boule de glace à la vanille fabriquée en France et BIO ce mélange parfaitement avec son coulis au chocolat et de sa cigarette russe sur le dessus.', '1L, 2L', true)">
+          VOIR PLUS ➔</h3>
+      </article>
+      <article id="produit8" class="produitLess" style="background-color: var(--color5);">
+        <img id="imageproduit8" src="assets/img/vignettes/Fruits_framboises.png" title="Image de Franboise"
+          alt="framboises">
+        <h3
+          onclick="detail('produit8', 'assets/img/vignettes/Fruits_framboises.png', 'Framboises', 'Ces framboises surgelées mais encore pleines de vie sont parfaites pour la cuisine ou à manger seul. Vous allez pouvoir retrouver le goût de framboise cueillie au cœur de l’Auvergne-Rhône-Alpes  ', '1Kg, 2Kg', false)">
+          VOIR PLUS ➔</h3>
+      </article>
+      <article id="produit9" class="produitLess" style="background-color: var(--color4);">
+        <img id="imageproduit9" src="assets/img/vignettes/Fruits_myrtilles.png" title="Image de Myrtilles"
+          alt="myrtilles">
+        <h3
+          onclick="detail('produit9', 'assets/img/vignettes/Fruits_myrtilles.png', 'Myrtilles', 'Cueillies au cœur de bois français, ces myrtilles pleines de fraîcheur, une fois croquées, vous laisserez une saveur exquise en bouche. Parfait pour la cuisine, vous allez pouvoir retrouver différents formats, en fonction de votre gourmandise.', '1Kg, 2Kg', false)">
+          VOIR PLUS ➔</h3>
+      </article>
+    </section>
+  </main>
+  <footer>
+    <section>
+      <article>
+        <h4>NOS PRODUITS</h4>
+        <ul>
+          <li><a href="particulier.html">Particulier</a></li>
+          <li><a href="professionnel.html">Professionnel</a></li>
+        </ul>
+      </article>
+      <article>
+        <h4>NOS CERTIFICATION</h4>
+        <img src="assets/img/made_in_france.png" alt="made in france" title="logo made in france" height="50"
+          width="50">
+        <img src="assets/img/bio.png" alt="certification BIO" title="logo BIO" height="50" width="70">
+      </article>
+      <article>
+        <h4>SUIVEZ NOUS</h4>
+        <img src="assets/img/twitter.png" alt="logo twitter" title="logo twitter" height="50" width="50">
+        <img src="assets/img/facebook.png" alt="logo facebook" title="logo facebook" height="50" width="50">
+      </article>
+      <article>
+        <article>
+          <h4>TÉLÉPHONES</h4>
+          <ul>
+            <li><a href="tel:+33820781251">08.20.78.12.51 Site de Lannion</a></li>
+            <li><a href="tel:+33222542147">02.22.54.21.47 Site de Pontivy</a></li>
+            <li><a href="tel:+33868821521">08.68.82.15.21 Administration</a></li>
+          </ul>
+        </article>
+        <article>
+          <h4>NOUS CONTACTER</h4>
+          <a href="contact.html">Message</a>
+        </article>
+      </article>
+    </section>
+    <section>
+      <h2>© 2021 KohFrais All rights reserved.</h2>
+    </section>
+  </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+div.banniere {    
+    margin-top: 70px;
+    display: table;
+    height: 300px;    
+    min-width: 100%;    
+    background-image: url(../../assets/img/vignettes/Fruits_myrtilles.png);    
+    background-size: cover; 
+    text-align: center;
+}
+
+div.banniereVerticalAlign {
+    width:100%;
+    text-align: center; 
+    display: table-cell;
+    vertical-align: middle
+}
+
+div.banniereVerticalAlign h2 {
+    color: #FFF;
+    background-color: #00000065;
+}
+
+@media screen and (max-width: 480px) {
+
+    article p {
+        width: 100%;
+    }
+
+    hr {
+        width: 10%;
+    }
+    div.banniere {
+        height: 200px;
+        margin-top: 0px;
+    }
+} 

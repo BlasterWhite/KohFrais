@@ -1,0 +1,81 @@
+main section {
+    padding: 50px 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+main article {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.info {
+    background-color: var(--color4);
+    width: 25%;
+    min-width: 210px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.contact-form {
+    width: 50%;
+    min-width: 380px;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-family: 'robotoregular', sans-serif;
+    font-size: 24px;
+}
+
+input, textarea {
+    font-family: 'robotoregular', sans-serif;
+    background-color: var(--color5);
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 48px;
+    margin: 15px auto 0 auto;
+    border: none;
+    font-size: 16px;
+    padding: 8px;
+}
+
+#nom, #prenom {
+    min-width: 30%;
+}
+
+#mail, #sujet {
+    min-width: 60%;
+}
+
+textarea {
+    resize: none;
+    width: 100%;
+}
+
+
+input[type="submit"] {
+    background-color: var(--color3);
+    color: #FFFFFF;
+    font-weight: lighter;
+    margin: 10px auto;
+    min-width: 150px;
+    font-size: 16px;
+}
+
+
+.info p {
+    margin: 0 auto;
+}
+main{
+    padding-bottom: 1em;
+}
+
+@media screen and (max-width: 480px) {
+
+    input, textarea,.info {
+        width: 80%;
+    }    
+} 

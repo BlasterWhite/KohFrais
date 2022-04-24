@@ -1,0 +1,5 @@
+- ✔️ Contact Form
+- ❌ Particule.js
+- ✔️ Faire les vignettes en 500px x 330x
+- ❌ bord arrondis sur les vignettes
+- ❌ Responsive

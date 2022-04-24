@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Matéo Guezennec, Cléo Martin-Colleu, Elio Douas, Mathias Pochot">
+  <meta name="keywords" content="Koh Frais, glace, Glaces, Crème glacée, Vacherin, coulis, fruits, vanille, glace à la vanille,
+   glacier, glacier breton, glacier Lannion, made in france, bio, fabriqué en france, fraise, pour professionnel, glaces pour professionnel,
+   coupe glacée, bac de glace, glace à l'italienne, caramel">
+  <title>Koh Frait - Accueil</title>
+  <link rel="stylesheet" href="assets/css/navBar.css">
+  <link rel="stylesheet" href="assets/css/charte.css">
+  <link rel="stylesheet" href="assets/css/accueil.css">
+  <link rel="stylesheet" href="assets/css/slide.css">
+  <link rel="stylesheet" href="assets/css/footer.css">
+  <link rel="shortcut icon" href="assets/img/icon.png" type="image/x-icon">
+  <script src="https://kit.fontawesome.com/368c09efaa.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <div class="topnav" id="NavBar">
+      <a class="mobile" href="index.html">
+        <img src="assets/img/icon.png" alt="Logo KOH FRAIS" title="Logo">
+        <p id="titre">KOH FRAIS</p>
+      </a>
+      <div class="pc">
+        <a class="active" href="index.html">
+          <img src="assets/img/icon.png" alt="Logo KOH FRAIS" title="Logo">
+          <p>ACCUEIL</p>
+        </a>
+      </div>
+      <a href="particulier.html">Particulier</a>
+      <hr>
+      <a href="professionnel.html">Professionnel</a>
+      <hr>
+      <a href="about.html">à Propos</a>
+      <hr>
+      <a href="contact.html">Contact</a>
+      <a href="javascript:void(0);" class="icon" onclick="afficheNavBar()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <div class="banniere">
+      <div class="banniereVerticalAlign">
+        <h2>Koh Frais, la glace pour vous rendre heureux !</h2>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="slide">
+      <article>
+        <h2 class="nouveautes">Nouveautés</h2>
+        <div class="slideshow-container">
+
+          <a href="particulier.html">
+            <div class="slide1 fade">
+              <div class="numbertext">1 / 3</div>
+              <img src="assets/img/vignettes/Coulis_caramel.png" alt="Coulis caramel" title="Coulis de caramel">
+              <div class="text">Coulis de caramel</div>
+            </div>
+
+            <div class="slide1 fade">
+              <div class="numbertext">2 / 3</div>
+              <img src="assets/img/vignettes/Vacherin_4.png" alt="Vacherin" title="Vacherin">
+              <div class="text">Vacherin</div>
+            </div>
+
+            <div class="slide1 fade">
+              <div class="numbertext">3 / 3</div>
+              <img src="assets/img/vignettes/Coulis_kiwi.png" alt="Coulis de kiwi" title="Coulis de kiwi">
+              <div class="text">Coulis de kiwi</div>
+            </div>
+          </a>
+
+          <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+
+        </div>
+        <div style="padding-top: 3.25%;">
+          <span class="dot1" onclick="currentSlide(1, 1)"></span>
+          <span class="dot1" onclick="currentSlide(2, 1)"></span>
+          <span class="dot1" onclick="currentSlide(3, 1)"></span>
+        </div>
+      </article>
+      <article>
+        <h2 class="bestseller">Best Seller</h2>
+
+        <div class="slideshow-container">
+
+          <a href="particulier.html">
+
+            <div class="slide2 fade">
+              <div class="numbertext">1 / 3</div>
+              <img src="assets/img/vignettes/Coupe_individuelle_1.png" alt="coupe de glace individuel à la vanille"
+                title="coupe individuelle, parfums vanille">
+              <div class="text">Coupe individuelle à la vanille</div>
+            </div>
+
+            <div class="slide2 fade">
+              <div class="numbertext">2 / 3</div>
+              <img src="assets/img/vignettes/Glace_Italienne1.png" alt="glace à l'Italienne"
+                title="Glace à l'Italienne">
+              <div class="text">Glace à l'Italienne</div>
+            </div>
+
+            <div class="slide2 fade">
+              <div class="numbertext">3 / 3</div>
+              <img src="assets/img/vignettes/Bac_glace1.png" alt="Bac de glace à la vanille" title="Glace à la vanille">
+              <div class="text">Bac de glace à la vanille</div>
+            </div>
+
+          </a>
+
+          <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
+
+        </div>
+        <br>
+        <div>
+          <span class="dot2" onclick="currentSlide(1, 2)"></span>
+          <span class="dot2" onclick="currentSlide(2, 2)"></span>
+          <span class="dot2" onclick="currentSlide(3, 2)"></span>
+        </div>
+      </article>
+    </section>
+    <section class="Presentation">
+      <h2>Qui sommes-nous ?</h2>
+      <p>
+        KohFrais est une entreprise de fabrication de glaces qui fonctionne depuis plus de <strong>20 ans</strong> sur
+        le
+        territoire
+        français.<br />
+        Notre savoir-faire et nos produits comme ceux étant <strong>bio</strong> ou entièrement de <strong>fabrications
+          françaises</strong> vous donneront
+        l'envie d'y goûter.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <section>
+      <article>
+        <h4>NOS PRODUITS</h4>
+        <ul>
+          <li><a href="particulier.html">Particulier</a></li>
+          <li><a href="professionnel.html">Professionnel</a></li>
+        </ul>
+      </article>
+      <article>
+        <h4>NOS CERTIFICATION</h4>
+        <img src="assets/img/made_in_france.png" alt="made in france" title="logo made in france" height="50"
+          width="50">
+        <img src="assets/img/bio.png" alt="certification BIO" title="logo BIO" height="50" width="70">
+      </article>
+      <article>
+        <h4>SUIVEZ NOUS</h4>
+        <img src="assets/img/twitter.png" alt="logo twitter" title="logo twitter" height="50" width="50">
+        <img src="assets/img/facebook.png" alt="logo facebook" title="logo facebook" height="50" width="50">
+      </article>
+      <article>
+        <article>
+          <h4>TÉLÉPHONES</h4>
+          <ul>
+            <li><a href="tel:+33820781251">08.20.78.12.51 Site de Lannion</a></li>
+            <li><a href="tel:+33222542147">02.22.54.21.47 Site de Pontivy</a></li>
+            <li><a href="tel:+33868821521">08.68.82.15.21 Administration</a></li>
+          </ul>
+        </article>
+        <article>
+          <h4>NOUS CONTACTER</h4>
+          <a href="contact.html">Message</a>
+        </article>
+      </article>
+    </section>
+    <section>
+      <h2>© 2021 KohFrais All rights reserved.</h2>
+    </section>
+  </footer>
+  <script src="assets/js/navBar.js"></script>
+  <script src="assets/js/imageSlide.js"></script>
+</body>
+
+</html>

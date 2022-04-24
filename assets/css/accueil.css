@@ -1,0 +1,112 @@
+section {
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.slide article {
+    background-color: var(--color2);
+    width: 50%;
+    text-align: center;
+    padding: 0;
+    padding-bottom: 1%;
+    min-width: 240px;
+}
+
+.slide article:first-child h2 {
+    background-color: var(--color5);
+}
+
+.slideshow-container img {
+    width: 100%;
+}
+
+section article h2 {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin: 0;
+}
+
+.nouveautes {
+    background: var(--color5);
+    color: var(--color2);
+}
+
+.bestseller {
+    background: var(--color2);
+    color: var(--color5);
+}
+
+.banniere {
+    color: var(--color1);
+    height: 400px;
+    width: 100%;
+}
+
+.Presentation {
+    padding: 25px 10px;
+    justify-content: space-evenly;
+    text-align: center;
+    color: var(--color2);
+    background: var(--color1);
+    padding-bottom: 5%;
+}
+
+.Presentation p{
+    margin: 0 20%;
+}
+
+.Presentation h2{
+    text-decoration: underline;
+}
+
+#coupeind1 {
+    height: 200px;
+    width: 200px;
+}
+
+#vache {
+    height: 200px;
+    width: 200px;
+}
+
+div.banniere h2 {
+    z-index: 2;
+    margin: 0 auto;
+    padding: 0;
+    filter: blur(0px);
+    top: 50%;
+    left: 50%;
+    transform: translate(0%, 150%);
+}
+
+div.banniere {
+    height: 300px;
+    width: 100%;
+    background-image: url(../../assets/img/PHOTOS/Fruits_framboises.jpg);
+    background-size: cover; /*filter: blur(8px);*/
+    z-index: -1;
+    text-align: center;
+}
+
+@media screen and (max-width : 700px) {
+    section {
+        flex-wrap: wrap;
+    }
+
+    .slide article:first-child {
+        border-bottom: var(--color5) 3px solid;
+    }
+
+    .slide article {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width : 480px) {
+
+    .banniere h2 {
+        font-size: 2em;
+    }
+}
